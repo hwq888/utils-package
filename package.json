@@ -8,13 +8,13 @@
     "常用工具类"
   ],
   "description": "js常用工具类",
-  "homepage": "https://github.com/hwq888/hwq-custom-ui-package",
+  "homepage": "https://github.com/hwq888/utils-package",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hwq888/hwq-custom-ui-package"
+    "url": "git+https://github.com/hwq888/utils-package"
   },
   "bugs": {
-    "url": "https://github.com/hwq888/hwq-custom-ui-package/issues"
+    "url": "https://github.com/hwq888/utils-package/issues"
   },
   "main": "./dist/utils-package.common.js",
   "scripts": {
