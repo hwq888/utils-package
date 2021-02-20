@@ -1,10 +1,26 @@
 {
   "name": "utils-package",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": "hwq888_ok@163.com",
+  "keywords": [
+    "js",
+    "常用工具类"
+  ],
+  "description": "js常用工具类",
+  "homepage": "https://github.com/hwq888/hwq-custom-ui-package",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hwq888/hwq-custom-ui-package"
+  },
+  "bugs": {
+    "url": "https://github.com/hwq888/hwq-custom-ui-package/issues"
+  },
+  "main": "./dist/utils-package.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name utils-package ./src/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <p>utils-package服务已启动</p>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import { test } from './index'
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  mounted () {
+    test.getNowTime()
+    test.showMessage('打印一段msg')
   }
 }
 </script>
